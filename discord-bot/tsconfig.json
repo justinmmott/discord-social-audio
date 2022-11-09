@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    // I don't like this but don't know how to get around
+    // the discord.js errors without it yet
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
